@@ -26,6 +26,13 @@ export const SearchButton = styled.button`
 
     font-size: 14px;
     font-weight: 600;
+    cursor: pointer;
+
+    transition: background-color 0.5s ease-out;
+
+    &:hover {
+        background-color: hsl(0, 0%, 59%);
+    }
 `;
 
 export const SearchBar = styled.div`
