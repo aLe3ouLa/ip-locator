@@ -8,7 +8,7 @@ import styled from 'styled-components';
 import { Card } from './components/Card/Card';
 
 const Wrapper = styled.div`
-position: relative;
+    position: relative;
 `;
 
 const CardWrapper = styled.div`
@@ -18,9 +18,8 @@ const CardWrapper = styled.div`
     transform: translateX(-50%);
     z-index: 9999;
 
-
     @media (max-width: 640px) {
-       top: 160px;
+        top: 160px;
     }
 
     @media (min-width: 2036px) {
@@ -35,7 +34,6 @@ function App() {
 
     const onHandleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         const newQuery = e.target.value;
-        console.log(newQuery);
         setQuery(newQuery);
     };
 
@@ -49,7 +47,7 @@ function App() {
         if (ip?.location && ip?.location.lat && ip?.location.lng) {
             setPosition([ip?.location?.lat, ip?.location?.lng]);
         }
-     
+
         setIp(data);
     };
 
