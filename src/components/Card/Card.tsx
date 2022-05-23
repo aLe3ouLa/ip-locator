@@ -1,4 +1,3 @@
-
 import { StyledCard, Subtitle, Value } from './Card.styles';
 import { ICard } from './ICard';
 
@@ -20,7 +19,7 @@ export const Card: React.FC<ICard> = ({
                 <Subtitle>LOCATION</Subtitle>
                 <Value>
                     {city || country || postalCode
-                        ? `${city}, ${country}, ${postalCode}`
+                        ? `${city} ${country} ${postalCode}`
                         : '-'}
                 </Value>
             </li>
