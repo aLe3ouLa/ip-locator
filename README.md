@@ -10,14 +10,14 @@ The challenge is to build out this IP Address Tracker app and get it looking as 
 
 The users are able to:
 
-[x] View the optimal layout for each page depending on their device's screen size
-[] See hover states for all interactive elements on the page
-[x] See their own IP address on the map on the initial page load
-[x] Search for any IP addresses or domains and see the key information and location
+- [x] View the optimal layout for each page depending on their device's screen size
+- [x] See hover states for all interactive elements on the page
+- [x] See their own IP address on the map on the initial page load
+- [x] Search for any IP addresses or domains and see the key information and location
 
 Technologies:
 
-[x] React.js
-[x] Styled components
-[x] IPify
-[x] LeafletJS
+- [x] React.js
+- [x] Styled components
+- [x] IPify
+- [x] LeafletJS
