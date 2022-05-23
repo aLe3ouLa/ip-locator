@@ -22,6 +22,10 @@ const CardWrapper = styled.div`
         top: 160px;
     }
 
+    @media (min-width: 1024px) {
+        top: 190px;
+    }
+
     @media (min-width: 2036px) {
         top: 580px;
     }
